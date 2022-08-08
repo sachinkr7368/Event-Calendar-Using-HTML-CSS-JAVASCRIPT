@@ -126,3 +126,61 @@ body {
     position: absolute;
     background-color: rgba(0,0,0,0.8);
   }
+ @media(max-width:765px){
+    html{
+        overflow-x: hidden;
+
+    }
+
+    body {
+        display: flex;
+        margin: 15px auto;
+        justify-content: center;
+        background-color: rgb(226, 236, 240);
+      }
+
+    #container {
+        width:100vw;
+      }
+
+    #weekdays {
+       display: none;
+      }
+      #weekday-responsive{
+        width: 100%;
+        display: flex;
+        color: blueviolet;
+        font-size: 18px;
+      }
+      #weekday-responsive div {
+        width: 100px;
+        padding: 5px 0px;
+      }
+    #calendar {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .day {
+        width: 12%;
+        
+        padding: 3px;
+        height: 50px;
+        cursor: pointer;
+        box-sizing: border-box;
+        background-color: white;
+        margin: 3px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:column;
+        justify-content: space-evenly;
+      }
+      
+        #newEventModal{
+            width:300px;
+            margin: auto;
+
+     
+  }
+}
