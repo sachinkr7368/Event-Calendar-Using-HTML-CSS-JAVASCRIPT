@@ -113,8 +113,24 @@ body {
   #saveButton, #closeButton {
     background-color: blue;
   }
+  .addButton {
+    background-color: rgb(35, 218, 35);
+  }
   #eventText {
-    font-size: 14px;
+    font-size: 30px;
+    color: blue;
+  }
+  #eventTimeFrom {
+    color: green;
+    font-size: 24px;
+  }
+  #eventTimeTo {
+    color: red;
+    font-size: 24px;
+  }
+  #to {
+    color: blue;
+    font-size: 24px;
   }
   #modalBackDrop {
     display: none;
@@ -126,7 +142,7 @@ body {
     position: absolute;
     background-color: rgba(0,0,0,0.8);
   }
- @media(max-width:765px){
+  @media(max-width:765px){
     html{
         overflow-x: hidden;
 
@@ -179,8 +195,6 @@ body {
       
         #newEventModal{
             width:300px;
-            margin: auto;
-
-     
-  }
+            margin: auto;  
+      }
 }
