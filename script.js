@@ -77,8 +77,8 @@ function load() {
         const eventDiv = document.createElement('div');
         eventDiv.classList.add('event');
         eventDiv.innerText = eventForDay.title;
-        eventDiv.innerText = eventTimeDayFrom.from;
-        eventDiv.innerText = eventTimeDayTo.To;
+        // eventDiv.innerText = eventTimeDayFrom.from;
+        // eventDiv.innerText = eventTimeDayTo.To;
         daySquare.appendChild(eventDiv);
       }
 
